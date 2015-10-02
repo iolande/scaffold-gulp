@@ -6,6 +6,7 @@ Overview:
   ☐ Browserify
   ☐ Test tools - mocha, chai, sinon? It's what I usually use but seems overkill - so much configuration! - and has changed a fair bit since I last dug in. I suspect I could get up to speed with an alternative just as quickly...
 
+
 Quick list:
   ☐ gitignore
   ☐ jshintignore
@@ -15,3 +16,10 @@ Quick list:
 Tech debt / tasks:
   ☐ Review the .jshintrc global options
   ☐ Decide whether I want a sublime-project file in the repo - I've seen recommendations that it be added but I'm not convinced... Maybe I'm using it incorrectly but for me this file tends to contain personal, rather than team, prefs. I'd best go rtfm.
+
+
+Build:
+  Single vs multiple build paths:
+    Think about files that don't need processing - e.g. font files. Do I still need to clear out ./assets on build & copy back in? Off the top of my head that was one part of a solution to get around browser cache problems & permissions on Win machines. Another part was setting up several local build cascades so the CSS or vendor JS wouldn't be regenerated if the dev was only editing tests, for example (it was slow). Maybe the "kill and rebuild all" approach was only a problem within that project.
+
+    ☐ Start with a single build process that processes everything - images (sprites), styles (SASS), dev js, vendor js etc.
