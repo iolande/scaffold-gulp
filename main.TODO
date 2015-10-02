@@ -6,3 +6,5 @@ Overview:
   ☐ Browserify
   ☐ Test tools - mocha, chai, sinon? It's what I usually use but seems overkill - so much configuration! - and has changed a fair bit since I last dug in. I suspect I could get up to speed with an alternative just as quickly...
 
+Tech debt / tasks:
+  ☐ Review the .jshintrc global options
