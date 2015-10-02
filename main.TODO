@@ -6,6 +6,12 @@ Overview:
   ☐ Browserify
   ☐ Test tools - mocha, chai, sinon? It's what I usually use but seems overkill - so much configuration! - and has changed a fair bit since I last dug in. I suspect I could get up to speed with an alternative just as quickly...
 
+Quick list:
+  ☐ gitignore
+  ☐ jshintignore
+  ☐ Folder structure (just go with the usual assets / src or I'll be deciding until Christmas)
+
+
 Tech debt / tasks:
   ☐ Review the .jshintrc global options
   ☐ Decide whether I want a sublime-project file in the repo - I've seen recommendations that it be added but I'm not convinced... Maybe I'm using it incorrectly but for me this file tends to contain personal, rather than team, prefs. I'd best go rtfm.
