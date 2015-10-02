@@ -1,0 +1,14 @@
+Files and folders:
+
+assets:
+  ☐ processed / built files
+
+src:
+  ☐ build
+  ☐ docs
+  ☐ images
+  ☐ styles
+  ☐ test
+
+vendor:
+  ☐ node packages, css frameworks
