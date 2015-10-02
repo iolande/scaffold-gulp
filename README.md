@@ -1,5 +1,11 @@
 # Scaffold gulp
-My tailored scaffold project for a gulp project. I'll use this to refresh, review and (I hope!) end up with a useful shell project containing tools and settings I'm familiar with.
+A scaffold project using tools familiar to me.
 
 ## Goals
-The project will also have jshint, browserify, and test suite setup (probably mocha, chai, sinon but that's maybe overkill so tbc).
+Reviewing and checking for updates to familiar tools to bring myself up to date and re-evaluate habits in case there's a better approach (and before bad ones become ingrained).
+
+## Tools
+* gulp
+* jshint
+* browserify
+* test suite
