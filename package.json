@@ -1,0 +1,40 @@
+{
+  "name": "scaffold-gulp",
+  "version": "0.0.0",
+  "description": "A scaffold project using tools familiar to me",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    // "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iolande/scaffold-gulp.git"
+  },
+  "author": "io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iolande/scaffold-gulp/issues"
+  },
+  "homepage": "https://github.com/iolande/scaffold-gulp#readme",
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "browserify": "^11.2.0",
+    "chai": "^3.3.0",
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.6",
+    "handlebars": "^4.0.3",
+    "hbsfy": "^2.4.1",
+    "jquery": "^2.1.4",
+    "lodash.assign": "^3.2.0",
+    "mocha": "^2.3.3",
+    "sinon": "^1.17.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.4.0"
+  }
+}
